@@ -1,0 +1,1 @@
+import  slide1 from "../../../assets/images/slide-1.jpg";
