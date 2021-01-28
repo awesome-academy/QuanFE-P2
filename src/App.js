@@ -1,6 +1,6 @@
+import Footer from "components/Footer";
 import React, { Suspense } from "react";
 import { BrowserRouter, Redirect, Route, Switch } from "react-router-dom";
-
 import "./App.scss";
 import Header from "./components/Header";
 
@@ -15,6 +15,7 @@ function App() {
             <Redirect exact from="/" to="/home" />
             <Route path="/home" component={HomePage} />
           </Switch>
+          <Footer />
         </BrowserRouter>
       </Suspense>
     </div>
