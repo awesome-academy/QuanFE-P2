@@ -8,16 +8,18 @@ function Menu() {
     <nav class="navbar navbar-main">
       <Container>
         <Row>
-          <Col xs="2"><img className="nav__item" src={logo} alt="img" /></Col>
+          <Col xs="2">
+            <img className="nav__item" src={logo} alt="img" />
+          </Col>
           <Col xs="10">
             <ul className="nav">
               <li className="nav__item">
-                <a className="nav__link" href="index.html">
+                <a className="nav__link" href="./">
                   TRANG CHỦ
                 </a>
               </li>
               <li className="nav__item" id="dropdown--1">
-                <a className="nav__link" href="product-grid.html">
+                <a className="nav__link" href="./">
                   RƯỢU VANG ĐỎ
                 </a>
                 <DropdownMenu />
@@ -33,17 +35,17 @@ function Menu() {
                 </a>
               </li>
               <li className="nav__item">
-                <a className="nav__link" href="introduction.html">
+                <a className="nav__link" href="./">
                   THÔNG TIN
                 </a>
               </li>
               <li className="nav__item">
-                <a className="nav__link" href="blog.html">
+                <a className="nav__link" href="./">
                   BLOG
                 </a>
               </li>
               <li className="nav__item">
-                <a className="nav__link" href="contact.html">
+                <a className="nav__link" href="./">
                   LIÊN HỆ
                 </a>
               </li>
