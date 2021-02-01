@@ -5,8 +5,7 @@ import GalleryItem from "./GalleryItem";
 import { GALLERY_IMAGES } from "constants/images";
 
 function Gallery() {
-  const galleryImages = Object.values(GALLERY_IMAGES);
-  const mapGalleryImages = galleryImages.map((e) => (
+  const mapGalleryImages = GALLERY_IMAGES.map((e) => (
     <Col xs="3">
       <GalleryItem src={e} />
     </Col>

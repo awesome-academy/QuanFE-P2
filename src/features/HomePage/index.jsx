@@ -1,9 +1,11 @@
 import React from "react";
-import { Container, Row } from "reactstrap";
+import { Col, Container, Row } from "reactstrap";
 import BigProduct from "./BigProduct/BigProduct";
+import Customer from "./Customer/Customer";
 import Gallery from "./Gallery/Gallery";
 import "./HomePage.scss";
 import Introduction from "./Introduction/Introduction";
+import NewsAndBlog from "./NewsAndBlog/NewsAndBlog";
 
 function HomePage() {
   return (
@@ -16,6 +18,18 @@ function HomePage() {
       </Row>
       <Row>
         <Gallery />
+      </Row>
+      <Row>
+        <Container>
+          <Row>
+            <Col xs="8">
+              <NewsAndBlog />
+            </Col>
+            <Col xs="4">
+              <Customer />
+            </Col>
+          </Row>
+        </Container>
       </Row>
     </Container>
   );

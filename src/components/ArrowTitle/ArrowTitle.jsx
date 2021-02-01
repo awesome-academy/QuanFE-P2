@@ -1,10 +1,11 @@
 import React from "react";
-import Images from "constants/images";
+import { IMAGES } from "constants/images";
+
 const ArrowTitle = ({ title }) => {
   return (
     <div>
       <h4>{title}</h4>
-      <img src={Images.ARROW} alt="img" />
+      <img src={IMAGES.ARROW} alt="img" />
     </div>
   );
 };

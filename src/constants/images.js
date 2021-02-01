@@ -21,33 +21,35 @@ import gallery5 from "assets/images/gallery-img-5.png";
 import gallery6 from "assets/images/gallery-img-6.png";
 import gallery7 from "assets/images/gallery-img-7.png";
 import gallery8 from "assets/images/gallery-img-8.png";
-
-const Images = {
-  PRODUCT_1: p1,
-  PRODUCT_2: p2,
-  PRODUCT_3: p3,
-  PRODUCT_4: p4,
-  PRODUCT_5: p5,
-  PRODUCT_6: p6,
-  PRODUCT_7: p7,
-  PRODUCT_8: p8,
-  PRODUCT_9: p9,
-  PRODUCT_10: p10,
-  PRODUCT_11: p11,
-  PRODUCT_12: p12,
-  PRODUCT_13: p13,
-  PRODUCT_14: p14,
+import blog1 from "assets/images/blog-1.png";
+import blog2 from "assets/images/blog-2.png";
+export const IMAGES = {
   ARROW: arrow,
+  BLOG: [blog1, blog2],
 };
-
-export const GALLERY_IMAGES = {
-  GALLERY_1: gallery1,
-  GALLERY_2: gallery2,
-  GALLERY_3: gallery3,
-  GALLERY_4: gallery4,
-  GALLERY_5: gallery5,
-  GALLERY_6: gallery6,
-  GALLERY_7: gallery7,
-  GALLERY_8: gallery8,
-};
-export default Images;
+export const PRODUCTS = [
+  p1,
+  p2,
+  p3,
+  p4,
+  p5,
+  p6,
+  p7,
+  p8,
+  p9,
+  p10,
+  p11,
+  p12,
+  p13,
+  p14,
+];
+export const GALLERY_IMAGES = [
+  gallery1,
+  gallery2,
+  gallery3,
+  gallery4,
+  gallery5,
+  gallery6,
+  gallery7,
+  gallery8,
+];
