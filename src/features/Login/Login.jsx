@@ -3,38 +3,38 @@ import Button from "components/Button/Button";
 import SrcPages from "components/SrcPages/SrcPages";
 import React from "react";
 import { Col, Container, Row } from "reactstrap";
-import "./Register.scss";
-import { SRC_REGISTER } from "constants/srcPage";
-import RegisterForm from "./RegisterForm/RegisterForm";
+import "./Login.scss";
+import { SRC_LOGIN } from "constants/srcPage";
+import LoginForm from "./LoginForm/LoginForm";
 
-function Register() {
+function Login() {
   return (
-    <Container className="register">
+    <Container className="login">
       <Row>
         <Col>
-          <SrcPages srcObj={SRC_REGISTER} />
+          <SrcPages srcObj={SRC_LOGIN} />
         </Col>
       </Row>
       <Row>
         <Col xs="10">
-          <ArrowTitle title="ĐĂNG KÝ" />
+          <ArrowTitle title="ĐĂNG NHẬP" />
         </Col>
         <Col xs="2" align="right">
           <Button
             color="black"
-            text="ĐĂNG NHẬP"
+            text="ĐĂNG KÝ"
             className="btn-top"
-            href="/login"
+            href="/register"
           />
         </Col>
       </Row>
-      <Row className="register-form justify-content-center">
+      <Row className="login-form justify-content-center">
         <Col xs="11">
-          <RegisterForm />
+          <LoginForm />
         </Col>
       </Row>
     </Container>
   );
 }
 
-export default Register;
+export default Login;
