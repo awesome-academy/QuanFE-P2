@@ -15,16 +15,19 @@
     }
     li {
       display: inline;
-
-      color: white;
-
-      font-family: "Times New Roman", Times, serif;
       font-size: 12px;
-
-      cursor: pointer;
+      font-family: "Times New Roman", Times, serif;
+      color: white;
+      > a {
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+      }
     }
     li:hover {
-      color: orange;
+      > a {
+        color: orange;
+      }
     }
   }
   &__search {
