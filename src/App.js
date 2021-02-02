@@ -6,6 +6,7 @@ import "./App.scss";
 
 const HomePage = React.lazy(() => import("./features/HomePage"));
 const Register = React.lazy(() => import("./features/Register/Register"));
+const Login = React.lazy(() => import("./features/Login/Login"));
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ function App() {
             <Redirect exact from="/" to="/home" />
             <Route path="/home" component={HomePage} />
             <Route path="/register" component={Register} />
+            <Route path="/login" component={Login} />
           </Switch>
           <Footer />
         </BrowserRouter>

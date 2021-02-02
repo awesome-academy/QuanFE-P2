@@ -89,14 +89,12 @@ function RegisterForm() {
               component={InputField}
               type="password"
               label="Mật khẩu*"
-              placeholder="Minh Quân"
             />
             <FastField
               name="repassword"
               component={InputField}
               type="password"
               label="Nhập lại mật khẩu*"
-              placeholder="Minh Quân"
             />
             <FormGroup>
               <div className="wrapper-btn">
