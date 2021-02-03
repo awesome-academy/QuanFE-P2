@@ -16,6 +16,9 @@
         text-decoration: none;
         cursor: pointer;
       }
+      > a.current {
+        color: orange;
+      }
     }
     > li:hover {
       > a {

@@ -10,3 +10,11 @@ export const SRC_ADDRESS = [
   { text: "Trang chủ", href: "/home" },
   { text: "Địa chỉ", href: "/address" },
 ];
+export const SRC_BLOG = [
+  { text: "Trang chủ", href: "/home" },
+  { text: "Blog", href: "/blog" },
+];
+export const SRC_INTRODUCTION = [
+  { text: "Trang chủ", href: "/home" },
+  { text: "Giới thiệu", href: "/introduction" },
+];

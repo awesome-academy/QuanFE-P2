@@ -35,12 +35,12 @@ function Menu() {
                 </a>
               </li>
               <li className="nav__item">
-                <a className="nav__link" href="./">
+                <a className="nav__link" href="/introduction">
                   THÔNG TIN
                 </a>
               </li>
               <li className="nav__item">
-                <a className="nav__link" href="./">
+                <a className="nav__link" href="/blog">
                   BLOG
                 </a>
               </li>

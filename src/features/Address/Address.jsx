@@ -15,9 +15,11 @@ function Address() {
         </Col>
       </Row>
       <Row>
-        <ArrowTitle title="Địa chỉ" />
+        <Col>
+          <ArrowTitle title="Địa chỉ" />
+        </Col>
       </Row>
-      <Row className="address-form justify-content-center">
+      <Row>
         <Col xs="6">
           <AddressForm />
         </Col>
