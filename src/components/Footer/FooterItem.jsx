@@ -2,11 +2,13 @@ import React from "react";
 
 function FooterItem(props) {
   const { items, title } = props;
+
   const listItems = items.map((e, i) => (
-    <li className="list-item">
+    <li key={i} className="list-item">
       <a href={e.href}>{e.text}</a>
     </li>
   ));
+
   return (
     <div className="contact__1">
       <h6>{title}</h6>

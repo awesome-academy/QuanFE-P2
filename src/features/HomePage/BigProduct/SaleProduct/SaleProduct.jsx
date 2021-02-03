@@ -32,26 +32,28 @@ function SaleProduct() {
                   atque dolores, illo culpa minima, tenetur.
                 </p>
                 <table>
-                  <tr>
-                    <td>
-                      <p>334</p>
-                      <span>ngày</span>
-                    </td>
-                    <td>
-                      <p>26</p>
-                      <span>giờ</span>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>60</p>
-                      <span>phút</span>
-                    </td>
-                    <td>
-                      <p>15</p>
-                      <span>giây</span>
-                    </td>
-                  </tr>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <p>334</p>
+                        <span>ngày</span>
+                      </td>
+                      <td>
+                        <p>26</p>
+                        <span>giờ</span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>60</p>
+                        <span>phút</span>
+                      </td>
+                      <td>
+                        <p>15</p>
+                        <span>giây</span>
+                      </td>
+                    </tr>
+                  </tbody>
                 </table>
               </div>
             </Col>

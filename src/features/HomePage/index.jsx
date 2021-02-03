@@ -6,6 +6,8 @@ import Gallery from "./Gallery/Gallery";
 import "./HomePage.scss";
 import Introduction from "./Introduction/Introduction";
 import NewsAndBlog from "./NewsAndBlog/NewsAndBlog";
+import SlideProduct from "./SlideProduct/SlideProduct";
+import Title from "components/Title/Title";
 
 function HomePage() {
   return (
@@ -17,7 +19,23 @@ function HomePage() {
         <BigProduct />
       </Row>
       <Row>
+        <Col>
+          <Title title="SẢN PHẨM MỚI" />
+        </Col>
+      </Row>
+      <Row>
+        <SlideProduct />
+      </Row>
+      <Row>
         <Gallery />
+      </Row>
+      <Row>
+        <Col>
+          <Title title="SẢN PHẨM BÁN CHẠY" />
+        </Col>
+      </Row>
+      <Row>
+        <SlideProduct />
       </Row>
       <Row>
         <Container>

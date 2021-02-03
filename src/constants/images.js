@@ -24,28 +24,32 @@ import gallery8 from "assets/images/gallery-img-8.png";
 import blog1 from "assets/images/blog-1.png";
 import blog2 from "assets/images/blog-2.png";
 import bg from "assets/images/home-page-sale-bg.png";
+import tag1 from "assets/images/hot-icon.png";
+import tag2 from "assets/images/sale-icon.png";
+import tag3 from "assets/images/new-icon.png";
 
 export const IMAGES = {
   ARROW: arrow,
   BLOG: [blog1, blog2],
   HOME_PAGE_SALE_BG: bg,
 };
-export const PRODUCTS = [
-  p1,
-  p2,
-  p3,
-  p4,
-  p5,
-  p6,
-  p7,
-  p8,
-  p9,
-  p10,
-  p11,
-  p12,
-  p13,
-  p14,
-];
+export const TAG = { HOT: tag1, SALE: tag2, NEW: tag3 };
+export const PRODUCTS = {
+  P1: p1,
+  P2: p2,
+  P3: p3,
+  P4: p4,
+  P5: p5,
+  P6: p6,
+  P7: p7,
+  P8: p8,
+  P9: p9,
+  P10: p10,
+  P11: p11,
+  P12: p12,
+  P13: p13,
+  P14: p14,
+};
 export const GALLERY_IMAGES = [
   gallery1,
   gallery2,
