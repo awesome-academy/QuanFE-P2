@@ -8,6 +8,11 @@ const HomePage = React.lazy(() => import("./features/HomePage"));
 const Register = React.lazy(() => import("./features/Register/Register"));
 const Login = React.lazy(() => import("./features/Login/Login"));
 const Address = React.lazy(() => import("./features/Address/Address"));
+const Blog = React.lazy(() => import("./features/Blog/Blog"));
+const Introduction = React.lazy(() =>
+  import("./features/Introduction/Introduction")
+);
+
 function App() {
   return (
     <div className="App">
@@ -20,6 +25,8 @@ function App() {
             <Route path="/register" component={Register} />
             <Route path="/login" component={Login} />
             <Route path="/address" component={Address} />
+            <Route path="/blog" component={Blog} />
+            <Route path="/introduction" component={Introduction} />
           </Switch>
           <Footer />
         </BrowserRouter>

@@ -20,7 +20,7 @@ const NewAndBlogItem = ({ src }) => {
           assumenda accusamus numquam voluptas amet doloremque reprehenderit
           iste natus excepturi.
         </p>
-        <a href="blog-detail.html">Read more</a>
+        <a href="./">Read more</a>
       </div>
     </div>
   );

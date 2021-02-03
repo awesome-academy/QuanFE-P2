@@ -2,7 +2,7 @@ import Title from "components/Title/Title";
 import React from "react";
 import { Col, Container, Row } from "reactstrap";
 import { IMAGES } from "constants/images";
-import NewAndBlogItem from "./NewAndBlogItem/NewAndBlogItem";
+import NewAndBlogItem from "components/NewAndBlogItem/NewAndBlogItem";
 
 function NewsAndBlog() {
   return (

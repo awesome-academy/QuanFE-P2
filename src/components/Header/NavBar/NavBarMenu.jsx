@@ -2,17 +2,8 @@ import React from "react";
 import { HEADER_NAV_ITEM } from "constants/header";
 
 function NavBarMenu() {
-  const listNavMenuItem = [
-    "Tài khoản của tôi",
-    "Trạng thái đơn hàng",
-    "Danh sách ưa thích",
-    "Giỏ hàng",
-    "Đăng nhập",
-    "Đăng ký",
-  ];
-
   const navMenuItem = HEADER_NAV_ITEM.map((e, i) => {
-    if (i === listNavMenuItem.length - 1)
+    if (i === HEADER_NAV_ITEM.length - 1)
       return (
         <li key={i}>
           <a href={e.href}>{e.text}</a>

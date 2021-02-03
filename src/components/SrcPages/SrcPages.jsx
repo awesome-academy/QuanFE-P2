@@ -6,7 +6,9 @@ const SrcPages = ({ srcObj }) => {
     if (i === srcObj.length - 1)
       return (
         <li key={i}>
-          <a href={e.href}>{e.text}</a>
+          <a className="current" href={e.href}>
+            {e.text}
+          </a>
         </li>
       );
     else

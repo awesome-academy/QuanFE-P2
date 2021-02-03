@@ -23,9 +23,12 @@ import gallery7 from "assets/images/gallery-img-7.png";
 import gallery8 from "assets/images/gallery-img-8.png";
 import blog1 from "assets/images/blog-1.png";
 import blog2 from "assets/images/blog-2.png";
+import bg from "assets/images/home-page-sale-bg.png";
+
 export const IMAGES = {
   ARROW: arrow,
   BLOG: [blog1, blog2],
+  HOME_PAGE_SALE_BG: bg,
 };
 export const PRODUCTS = [
   p1,
