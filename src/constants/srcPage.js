@@ -18,3 +18,8 @@ export const SRC_INTRODUCTION = [
   { text: "Trang chủ", href: "/home" },
   { text: "Giới thiệu", href: "/introduction" },
 ];
+export const SRC_PRODUCTS_SHOW = [
+  { text: "Trang chủ", href: "/home" },
+  { text: "Sản phẩm", href: "" },
+  { text: "Rượu vang đỏ", href: "" },
+];

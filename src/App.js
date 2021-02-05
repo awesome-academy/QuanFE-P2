@@ -12,6 +12,9 @@ const Blog = React.lazy(() => import("./features/Blog/Blog"));
 const Introduction = React.lazy(() =>
   import("./features/Introduction/Introduction")
 );
+const ProductShow = React.lazy(() =>
+  import("./features/ProductShow/ProductShow")
+);
 
 function App() {
   return (
@@ -27,6 +30,7 @@ function App() {
             <Route path="/address" component={Address} />
             <Route path="/blog" component={Blog} />
             <Route path="/introduction" component={Introduction} />
+            <Route path="/product-show" component={ProductShow} />
           </Switch>
           <Footer />
         </BrowserRouter>

@@ -1,102 +1,105 @@
 {
-    "product": [
-        {
-            "id":"p1",
-            "name": "RƯỢU VANG ĐÀ LẠT",
-            "link": "../src/asset/images/product-1.jpg",
-            "original": "370000",
-            "price": "480000"
-        },
-        {
-            "id":"p2",
-            "name": "RƯỢU VANG HÀ LAN",
-            "link": "../src/asset/images/product-2.jpg",
-            "original": "370000",
-            "price": "480000"
-        },
-        {
-            "id":"p3",
-            "name": "RƯỢU VANG HÀ LAN",
-            "link": "../src/asset/images/product-3.jpg",
-            "original": "370000",
-            "price": "480000"
-        },
-        {
-            "id":"p4",
-            "name": "RƯỢU VANG HÀ LAN",
-            "link": "../src/asset/images/product-4.jpg",
-            "original": "370000",
-            "price": "480000"
-        },
-        {
-            "id":"p5",
-            "name": "RƯỢU VANG HÀ LAN",
-            "link": "../src/asset/images/product-5.jpg",
-            "original": "370000",
-            "price": "480000"
-        },
-        {
-            "id":"p6",
-            "name": "RƯỢU VANG HÀ LAN",
-            "link": "../src/asset/images/product-6.jpg",
-            "original": "370000",
-            "price": "480000"
-        },
-        {
-            "id":"p7",
-            "name": "RƯỢU VANG HÀ LAN",
-            "link": "../src/asset/images/product-7.jpg",
-            "original": "370000",
-            "price": "480000"
-        },
-        {
-            "id":"p8",
-            "name": "RƯỢU VANG HÀ LAN",
-            "link": "../src/asset/images/product-8.jpg",
-            "original": "370000",
-            "price": "480000"
-        },
-        {
-            "id":"p9",
-            "name": "RƯỢU VANG HÀ LAN",
-            "link": "../src/asset/images/product-9.jpg",
-            "original": "370000",
-            "price": "480000"
-        },
-        {
-            "id":"p10",
-            "name": "RƯỢU VANG HÀ LAN",
-            "link": "../src/asset/images/product-10.jpg",
-            "original": "370000",
-            "price": "480000"
-        },
-        {
-            "id":"p11",
-            "name": "RƯỢU VANG HÀ LAN",
-            "link": "../src/asset/images/product-11.jpg",
-            "original": "370000",
-            "price": "480000"
-        },
-        {
-            "id":"p12",
-            "name": "RƯỢU VANG HÀ LAN",
-            "link": "../src/asset/images/product-12.jpg",
-            "original": "370000",
-            "price": "480000"
-        },
-        {
-            "id":"p12",
-            "name": "RƯỢU VANG HÀ LAN",
-            "link": "../src/asset/images/product-13.jpg",
-            "original": "370000",
-            "price": "480000"
-        },
-        {
-            "id":"p12",
-            "name": "RƯỢU VANG HÀ LAN",
-            "link": "../src/asset/images/product-14.jpg",
-            "original": "370000",
-            "price": "480000"
-        }
-    ]
+  "products": [
+    {
+      "id": "p1",
+      "name": "RƯỢU VANG ĐÀ LẠT",
+      "link": "https://khoruougourmet.com/images/products/2020/06/23/resized/cazenova-chateaux_1592867943.jpg",
+      "original": "370000",
+      "price": "480000",
+      "tag": "sale"
+    },
+    {
+      "id": "p2",
+      "name": "RƯỢU VANG HÀ LAN",
+      "link": "https://khoruougourmet.com/images/products/2020/02/17/resized/ruou-vang-y-il-pino-di-biserno_1581915293.jpg",
+      "original": "370000",
+      "price": "480000"
+    },
+    {
+      "id": "p3",
+      "name": "RƯỢU VANG HÀ LAN",
+      "link": "https://khoruougourmet.com/images/products/2020/02/17/resized/vang-luce-della-vite_1581914210.jpg",
+      "original": "370000",
+      "price": "480000",
+      "tag": "hot"
+    },
+    {
+      "id": "p4",
+      "name": "RƯỢU VANG HÀ LAN",
+      "link": "https://khoruougourmet.com/images/products/2020/02/17/resized/ruou-vang-y-luce-brunello-di-montalcino_1581912668.jpg",
+      "original": "370000",
+      "price": "480000"
+    },
+    {
+      "id": "p5",
+      "name": "RƯỢU VANG HÀ LAN",
+      "link": "https://khoruougourmet.com/images/products/2020/02/17/resized/vang-y-la-vite-lucente_1581900303.jpg",
+      "original": "370000",
+      "price": "480000",
+      "tag": "new"
+    },
+    {
+      "id": "p6",
+      "name": "RƯỢU VANG HÀ LAN",
+      "link": "https://khoruougourmet.com/images/products/2020/02/17/resized/vang-ornellaia-bolgheri-superiore_1581897794.jpg",
+      "original": "370000",
+      "price": "480000"
+    },
+    {
+      "id": "p7",
+      "name": "RƯỢU VANG HÀ LAN",
+      "link": "https://khoruougourmet.com/images/products/2020/02/17/resized/vang-the-god-father-bo-gia_1581894886.jpg",
+      "original": "370000",
+      "price": "480000"
+    },
+    {
+      "id": "p8",
+      "name": "RƯỢU VANG HÀ LAN",
+      "link": "https://khoruougourmet.com/images/products/2020/06/23/resized/cazenova-chateaux_1592867943.jpg",
+      "original": "370000",
+      "price": "480000"
+    },
+    {
+      "id": "p9",
+      "name": "RƯỢU VANG HÀ LAN",
+      "link": "http://khoruou.com/Uploads/Products/2019/2/ruou-vang-aves-del-sur-gran-reserva-cabernet-sauvignon.jpg",
+      "original": "370000",
+      "price": "480000"
+    },
+    {
+      "id": "p10",
+      "name": "RƯỢU VANG HÀ LAN",
+      "link": "http://khoruou.com/Uploads/Products/2018/12/ruou-antinori-tignanello-toscana-igt-magnum-15-l.jpg",
+      "original": "370000",
+      "price": "480000"
+    },
+    {
+      "id": "p11",
+      "name": "RƯỢU VANG HÀ LAN",
+      "link": "http://khoruou.com/Uploads/Products/2018/12/vang-y-cubardi-igt-primitivo-3l.jpg",
+      "original": "370000",
+      "price": "480000"
+    },
+    {
+      "id": "p12",
+      "name": "RƯỢU VANG HÀ LAN",
+      "link": "http://khoruou.com/Uploads/Products/2018/12/ruou-woodstock-the-stocks-shiraz-mac-larren-magnum-15l.jpg",
+      "original": "370000",
+      "price": "480000"
+    },
+    {
+      "id": "p13",
+      "name": "RƯỢU VANG HÀ LAN",
+      "link": "http://khoruou.com/Uploads/Products/2018/12/prunotto-grappa-di-barolo-50-cl.jpg",
+      "original": "370000",
+      "price": "480000"
+    },
+    {
+      "id": "p14",
+      "name": "RƯỢU VANG HÀ LAN",
+      "link": "http://khoruou.com/Uploads/Products/2018/12/ruou-chateau-gruaud-larose-2nd-grand-cru-classe-s-ulien-15-l.jpg",
+      "original": "370000",
+      "price": "480000"
+    }
+  ]
 }
