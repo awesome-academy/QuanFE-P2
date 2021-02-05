@@ -10,7 +10,6 @@ function BigProduct() {
       <Row>
         <Col className="home-page-sale-bg" xs="12">
           <img src={homePageSaleBg} alt="img" />
-
           <SaleProduct />
         </Col>
       </Row>

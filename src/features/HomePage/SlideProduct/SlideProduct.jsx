@@ -3,11 +3,10 @@ import Carousel from "react-multi-carousel";
 import { Container } from "reactstrap";
 import "react-multi-carousel/lib/styles.css";
 import Product from "components/Product/Product";
-import { PRODUCTS_LIST } from "constants/slideProduct";
 import "./SlideProduct.scss";
 
-const SlideProduct = () => {
-  const productList = PRODUCTS_LIST.map((e, i) => (
+const SlideProduct = ({ products }) => {
+  const productList = products.map((e, i) => (
     <Product
       key={i}
       className="slide-item"

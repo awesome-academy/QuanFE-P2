@@ -1,17 +1,3 @@
-import p1 from "assets/images/product-1.jpg";
-import p2 from "assets/images/product-2.jpg";
-import p3 from "assets/images/product-3.jpg";
-import p4 from "assets/images/product-4.jpg";
-import p5 from "assets/images/product-5.jpg";
-import p6 from "assets/images/product-6.jpg";
-import p7 from "assets/images/product-7.jpg";
-import p8 from "assets/images/product-8.jpg";
-import p9 from "assets/images/product-9.jpg";
-import p10 from "assets/images/product-10.jpg";
-import p11 from "assets/images/product-11.jpg";
-import p12 from "assets/images/product-12.jpg";
-import p13 from "assets/images/product-13.jpg";
-import p14 from "assets/images/product-14.jpg";
 import arrow from "assets/images/arrow.png";
 import gallery1 from "assets/images/gallery-img-1.png";
 import gallery2 from "assets/images/gallery-img-2.png";
@@ -27,29 +13,15 @@ import bg from "assets/images/home-page-sale-bg.png";
 import tag1 from "assets/images/hot-icon.png";
 import tag2 from "assets/images/sale-icon.png";
 import tag3 from "assets/images/new-icon.png";
+import productBanner from "assets/images/products-banner.png";
 
 export const IMAGES = {
   ARROW: arrow,
   BLOG: [blog1, blog2],
   HOME_PAGE_SALE_BG: bg,
+  PRODUCT_BANNER: productBanner,
 };
 export const TAG = { HOT: tag1, SALE: tag2, NEW: tag3 };
-export const PRODUCTS = {
-  P1: p1,
-  P2: p2,
-  P3: p3,
-  P4: p4,
-  P5: p5,
-  P6: p6,
-  P7: p7,
-  P8: p8,
-  P9: p9,
-  P10: p10,
-  P11: p11,
-  P12: p12,
-  P13: p13,
-  P14: p14,
-};
 export const GALLERY_IMAGES = [
   gallery1,
   gallery2,
