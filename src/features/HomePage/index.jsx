@@ -8,12 +8,13 @@ import Introduction from "./Introduction/Introduction";
 import NewsAndBlog from "./NewsAndBlog/NewsAndBlog";
 import SlideProduct from "./SlideProduct/SlideProduct";
 import Title from "components/Title/Title";
+import { useSelector } from "react-redux";
 
 function HomePage() {
   const [error, setError] = useState(null);
   const [isLoaded, setIsLoaded] = useState(false);
   const [products, setProducts] = useState([]);
-  const url = "http://localhost:4000/products?_page=1&_limit=8";
+  const url = useSelector((state) => state.urlChange.initialSlice);
 
   useEffect(() => {
     fetch(url)
