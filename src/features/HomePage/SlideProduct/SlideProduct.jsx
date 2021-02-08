@@ -7,15 +7,7 @@ import "./SlideProduct.scss";
 
 const SlideProduct = ({ products }) => {
   const productList = products.map((e, i) => (
-    <Product
-      key={i}
-      className="slide-item"
-      title={e.name}
-      link={e.link}
-      price={e.price}
-      original={e.original}
-      tag={e.tag}
-    />
+    <Product key={i} className="slide-item" product={e} />
   ));
 
   const responsive = {

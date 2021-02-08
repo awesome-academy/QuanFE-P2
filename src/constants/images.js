@@ -14,12 +14,14 @@ import tag1 from "assets/images/hot-icon.png";
 import tag2 from "assets/images/sale-icon.png";
 import tag3 from "assets/images/new-icon.png";
 import productBanner from "assets/images/products-banner.png";
+import productBanner2 from "assets/images/products-banner-2.png";
 
 export const IMAGES = {
   ARROW: arrow,
   BLOG: [blog1, blog2],
   HOME_PAGE_SALE_BG: bg,
   PRODUCT_BANNER: productBanner,
+  PRODUCT_BANNER_2: productBanner2,
 };
 export const TAG = { HOT: tag1, SALE: tag2, NEW: tag3 };
 export const GALLERY_IMAGES = [

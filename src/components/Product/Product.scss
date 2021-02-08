@@ -31,10 +31,16 @@ a.product {
       }
     }
   }
-
-  .id {
-    display: none;
+}
+a.product:hover {
+  .popup {
+    display: block;
   }
+}
+.product-content {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  padding: 15px;
   .title {
     color: black;
   }
@@ -61,10 +67,7 @@ a.product {
     margin: 0.5rem 0rem;
   }
 }
-a.product:hover {
-  .popup {
-    display: block;
-  }
+.product-content:hover {
   h5 {
     color: orange;
   }

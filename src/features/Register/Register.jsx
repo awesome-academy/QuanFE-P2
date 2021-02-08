@@ -20,12 +20,9 @@ function Register() {
           <ArrowTitle title="ĐĂNG KÝ" />
         </Col>
         <Col xs="2" align="right">
-          <Button
-            color="black"
-            text="ĐĂNG NHẬP"
-            className="btn-top"
-            href="/login"
-          />
+          <a href="/login">
+            <Button color="black" text="ĐĂNG NHẬP" className="btn-top" />
+          </a>
         </Col>
       </Row>
       <Row className="register-form justify-content-center">

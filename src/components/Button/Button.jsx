@@ -1,13 +1,15 @@
 import React from "react";
 import "./Button.scss";
 
-const Button = ({ color, text, className, href, type }) => {
+const Button = ({ color, text, className, type, onClick }) => {
   return (
-    <a href={href}>
-      <button className={`btn btn--${color} ${className}`} type={type}>
-        {text}
-      </button>
-    </a>
+    <button
+      className={`btn btn--${color} ${className}`}
+      type={type}
+      onClick={onClick}
+    >
+      {text}
+    </button>
   );
 };
 

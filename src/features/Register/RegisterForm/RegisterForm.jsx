@@ -98,7 +98,12 @@ function RegisterForm() {
             />
             <FormGroup>
               <div className="wrapper-btn">
-                <Button type="submit" color="black" text="GỬI" />
+                <Button
+                  type="submit"
+                  color="black"
+                  text="GỬI"
+                  onClick={() => alert("đăng kí thành công")}
+                />
                 <Button type="button" color="black" text="QUAY LẠI" />
               </div>
             </FormGroup>

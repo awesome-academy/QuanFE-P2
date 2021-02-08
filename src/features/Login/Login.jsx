@@ -20,12 +20,9 @@ function Login() {
           <ArrowTitle title="ĐĂNG NHẬP" />
         </Col>
         <Col xs="2" align="right">
-          <Button
-            color="black"
-            text="ĐĂNG KÝ"
-            className="btn-top"
-            href="/register"
-          />
+          <a href="/register">
+            <Button color="black" text="ĐĂNG KÝ" className="btn-top" />
+          </a>
         </Col>
       </Row>
       <Row className="login-form justify-content-center">
