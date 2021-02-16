@@ -28,3 +28,8 @@ export const SRC_CART = [
   { text: "Sản phẩm", href: "" },
   { text: "Giỏ hàng", href: "" },
 ];
+export const SRC_PRODUCTS_DETAIL = [
+  { text: "Trang chủ", href: "/home" },
+  { text: "Sản phẩm", href: "" },
+  { text: "Rượu vang đỏ", href: "" },
+];
